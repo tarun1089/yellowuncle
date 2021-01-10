@@ -1,0 +1,5 @@
+
+website/node_modules/
+website/__sapper__
+.history
+.DS_Store

@@ -1,0 +1,161 @@
+$coffee: #F5F0EA;
+$coffeeDull: #F1EDE4;
+$golden: #E6CFA9;
+$coffeeDarkBrown: #C07C0E;
+$choclateBrown: #5A4E39;
+$darkCream: #F8E7CC;
+
+
+$blackLevel1: rgba(0,0,0,.84);
+$blackLevel2: rgba(0,0,0,.56);
+$blackLevel3: rgba(0,0,0,.32);
+
+// =============================== REGULAR COLORS
+$pink: #dd2575;
+$orange: #f1563b;
+$glossyPink: #FE62B1;
+$lightPurple: #f2e7f2;
+$darkBrown: #391d27;
+$veryDarkBrown: #211013;
+$blackishBrown: #0f0303;
+$lightShinyPink: #f05577;
+$lightPink: #FBD8E7;
+$veryLightPink: #fdeff5;
+$gplusRed: #d73d32;
+$blackishGray: #151515;
+$lightBlackishGray: #191919;
+$reddishBrown: #AB3F3F;
+$darkOrange: #f05667;
+$yellowishBrown: #F5A623;
+$gray565454: #565454;
+$gray3c3b3b : #3c3b3b;
+$gray393838: #393838;
+
+
+// =============================== THEME COLORS
+//solar System theme
+$SolarMainShade2 : #0e265b; //#29295d;
+$SolarMainShade1 : #F5A723; //#02025f;// #4e484b;
+$SolarBox : black; //#000000;//#31425C;
+$Solarinactivebox : #565454;
+$SolarMaincircle : #F5A723;
+$SolarArrow : black;
+$SolarMainText : white;
+$SolarLink:#55ACEE;
+
+//birds theme
+$BirdsMainShade2 : #2c5463; //#29295d;
+$BirdsMainShade1 : #398491; //#02025f;// #4e484b;
+$BirdsBox : #398491;//#10012c; //#000000;//#31425C;
+$Birdsinactivebox : #565454;
+$BirdsMaincircle : black;
+$BirdsArrow : #13EDFC;
+$BirdsMainText : white;
+$BirdsLink:#55ACEE;
+
+
+// Evergreen Theme
+
+$EvergreenGreen: rgba(75,164,74,1);
+$darkGreen:#265825;
+
+// Sunset Theme
+
+$darkRed: #4F1B21;
+$sunsetYellow : #F1CC35;
+$sunsetBar: #FC9A79;
+$sunsetFolder: #99543d;
+$sunsetHover : #F1CC35;
+$sunsetBox : #e7d995;
+$sunsetHeadings: white;
+// Grey theme
+$scaleGradient: #F5F5F5;
+$scaleGrey: #CCCCCC;
+$scaleCircle : #595775; //B80000
+$scaleArrow : white;
+$scaleBar: #CCCCCC;
+$scaleHover : black;
+$scaleBox : lighten($scaleCircle, 50%);
+$scaleHeadings: black;
+//rainbow theme
+$rainbowBlue : #68BBB6;
+$rainbowYellow: #EAB507;
+$rainbowRed : #F66E29;
+$rainbowGreen: #BDC23E;
+$rainbowWhite : white;
+$rainbowheading1: white;
+$rainbowheading2: black;
+$rainbowHover : black;
+//postit theme
+$postitGradient: #EFECCA;
+$postitGrey: #CCCCCC;
+$postittabheading: black;
+$postitheadingw: white;
+$postitheadingb: black;
+$postitBox : lighten($postitGradient,5%);
+$postitBar: #CCCCCC;
+$postitHover: black;
+
+$coolRed: #f06673;
+$pinkishOrange: #E8415D;
+$darkPurple: #81327a;
+$purple: #81327a;
+$brown: #7e505f;
+$lightYellow: #ffffc2;
+$purpleGray: #735466;
+$grayishBrown: #a94b5f;
+$coolGray :#28292c;
+$fbBlue: #415E9B;
+$fbBlueDark: #243761;
+$facebookColor: #415E9B;
+$twitterColor: #00aced;
+$glossyBlue: #62FEF2;
+$youtubeColor: #bb0000;
+$instagramColor: #cd486b;
+$skyBlue: #55ACEE;
+$greenishBlue: #0d394f;
+$veryLightSkyBlue: #EFF7FF;
+$green: #26b86c;
+$darkGreen: #50a050;
+$lightGreen: #DAFFF3;
+$veryLightGreen: #f8fffc;
+$shinyPurple: #9012FE;
+$lightParrotGreen: #F3FDE8;
+
+$seaGreen: #35cd96;
+
+/* Color for star */
+$starGolden: #F5A623;
+
+/*temp colors*/
+$gray: #999;
+$mediumDarkGray: #808080;
+$darkGray: #333;
+$lightGray:#eee;
+$veryLightGray:#fafafa;
+$mediumGray : #cccccc;
+$lightMediumGray: #ddd;
+$cardShadowColor: #E3E1E1;
+$bgGray: #f0f0f0;
+$almostWhite: #fefefe;
+$fadeDeepBlue: #2B47AA;
+$deepBlue: #03127A;
+$lightDeepBlue: #1F2E95;
+$veryDeepBlue: #16076A;
+$darkBlue:#001F4E;
+
+
+/* margins and paddings*/
+$cardMaxWidth: 1080px;
+$commonPadding: 10px;
+$cardMargin: 4px;
+$cardBorderRadius: 2px;
+
+$websitePadding: 20px;
+$profilePagePadding:$websitePadding;
+$mobileCardMargin: 8px;
+$mobileCardPaddingLeft: 20px;
+$mobileCardPaddingTop: 40px;
+
+
+$cardWidth: 1080px;
