@@ -1,8 +1,8 @@
 module.exports = {
   files: ['./icons/*.svg'],
   fontName: 'app',
-  classPrefix: 'app-icon--',
-  baseSelector: '.app-icon',
+  classPrefix: 'icon-',
+  baseSelector: '.icon',
   types: ['woff'],
   embed: true,
 };

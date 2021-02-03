@@ -9,6 +9,8 @@
 	<link rel='manifest' href='manifest.json' crossorigin='use-credentials'>
 	<link rel='icon' type='image/png' href='favicon.png'>
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+	<link href="vendor/halfmoon.min.css" rel="stylesheet">
+	<link href="vendor/halfmoon-variables.css" rel="stylesheet">
 
 	<!-- Sapper generates a <style> tag containing critical CSS
 	     for the current page. CSS for the rest of the app is
@@ -19,7 +21,7 @@
 	     the current page has one -->
 	%sapper.head%
 </head>
-<body>
+<body data-set-preferred-mode-onload="true">
 	<!-- The application will be rendered inside this element,
 	     because `src/client.js` references it -->
 	<div class="root">%sapper.html%</div>
@@ -27,7 +29,7 @@
 	<!-- Sapper creates a <script> tag containing `src/client.js`
 	     and anything else it needs to hydrate the app and
 	     initialise the router -->
-	<script src="vendor/firebase_bundle.js"></script>
+	<script src="vendor/halfmoon.min.js"></script>
 	%sapper.scripts%
 </body>
 </html>

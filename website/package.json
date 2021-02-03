@@ -8,7 +8,10 @@
     "export": "sapper export",
     "start": "node __sapper__/build"
   },
-  "dependencies": {},
+  "dependencies": {
+    "polka": "next",
+    "sirv": "^1.0.10"
+  },
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "babel-loader": "^8.2.2",
