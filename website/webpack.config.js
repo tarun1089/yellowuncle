@@ -22,6 +22,7 @@ const alias = {
   svelte: path.resolve('node_modules', 'svelte'),
   src: path.resolve(__dirname, 'src'),
   stores: path.resolve(__dirname, 'src/stores'),
+  articles: path.resolve(__dirname, 'src/articles'),
   icons: path.resolve(__dirname, 'src/icons'),
   config: path.resolve(__dirname, 'src/config'),
   helpers: path.resolve(__dirname, 'src/helpers'),

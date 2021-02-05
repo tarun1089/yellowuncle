@@ -1,0 +1,13 @@
+
+// import blogRoutes from './_blog_routes.js';
+// const contents = JSON.stringify(blogRoutes.root.blog.categories);
+// export function get(req, res) {
+// 	res.writeHead(200, {
+// 		'Content-Type': 'application/json'
+// 	});
+
+// 	res.end(contents);
+// }
+
+
+

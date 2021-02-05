@@ -1,0 +1,37 @@
+// import blogRoutes from './_blog_routes.js';
+// const categories = blogRoutes.root.blog.categories;
+// const lookup = new Map();
+// categories.forEach((category)=>{
+// 	const content = {...category};
+// 	lookup.set(category.slug, JSON.stringify(content));
+// 	if(category.articles){
+// 		category.articles.forEach((article)=>{
+// 			// const slug = `${category.slug}/${article.slug}`;
+// 			lookup.set(article.slug, JSON.stringify(article));
+// 		});
+// 	}
+// });
+// console.log(lookup);
+
+
+// export function get(req, res, next) {
+// 	// the `slug` parameter is available because
+// 	// this file is called [slug].json.js
+// 	const { slug } = req.params;
+	
+// 	if (lookup.has(slug)) {
+// 		res.writeHead(200, {
+// 			'Content-Type': 'application/json'
+// 		});
+
+// 		res.end(lookup.get(slug));
+// 	} else {
+// 		res.writeHead(404, {
+// 			'Content-Type': 'application/json'
+// 		});
+
+// 		res.end(JSON.stringify({
+// 			message: `Not found`
+// 		}));
+// 	}
+// }
